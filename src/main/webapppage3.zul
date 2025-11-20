@@ -1,0 +1,10 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal">
+	This is for the Editor Role
+	
+	<space></space>
+	
+	<button label="Logout" href="/j_spring_security_logout"></button>
+</window>
+</zk>
