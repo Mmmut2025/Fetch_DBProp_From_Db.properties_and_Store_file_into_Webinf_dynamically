@@ -1,0 +1,26 @@
+<zk xmlns="http://www.zkoss.org/2005/zul">
+	
+	<hbox align="cener" pack="center" height="100%" width="100%">
+    <window title="Download File Example" border="normal" width="400px"
+            apply="digest.message.DownloadComposer">
+
+        <vlayout spacing="10px">
+
+            <label value="Click below to download:" />
+			
+			<hbox spacing="50px">
+			
+            <a id="downloadLink"
+               label="Download File"
+               style="cursor:pointer; color:blue; text-decoration:underline;" />
+			
+			<a href="digestMessage.zul"  style="cursor:pointer; color:blue; text-decoration:underline;">SHA-256</a>
+			
+			</hbox>
+			<a href="generateDigestOfFile.zul">Link for tesing the digest message</a>
+       
+        </vlayout>
+
+    </window>
+	</hbox>
+</zk>
